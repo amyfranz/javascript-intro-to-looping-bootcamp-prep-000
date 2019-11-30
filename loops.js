@@ -15,8 +15,8 @@ function forLoop(array) {
       newString = newString + 's.';
       newArray.push(newString);
     }
-    return newArray;
   }
+  return newArray;
 }
 
 function whileLoop(n){
