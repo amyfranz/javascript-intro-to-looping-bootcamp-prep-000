@@ -5,15 +5,17 @@ function incrementVariable(n){
 function forLoop(array) {
   for (var i = 0; i < 25; i++) {
     var n = parseInt(i) + 1;
+    var newArray = array;
     var newString = 'I am ${n} strange loop';
     if (n === 1) {
       newString = newString + '.';
-      array.push(newString);
+      newArray.push(newString);
     }
     else {
       newString = newString + 's.';
-      array.push(newString);
+      newArray.push(newString);
     }
+    return newArray;
   }
 }
 
