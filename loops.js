@@ -6,7 +6,7 @@ function forLoop(array) {
   for (var i = 0; i < 25; i++) {
     var n = parseInt(i);
     var newArray = array;
-    var newString = "I am ${n} strange loop";
+    var newString = `I am ${n} strange loop`;
     if (n === 1) {
       newString = newString + '.';
       newArray.push(newString);
